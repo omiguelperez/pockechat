@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>React.js App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <section id="container"></section>
@@ -10,29 +11,6 @@
   <script src="https://fb.me/react-15.0.0.js"></script>  
   <script src="https://fb.me/react-dom-15.0.0.js"></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.min.js"></script>
-  <script type="text/babel">
-    class HelloWorldComponent extends React.Component {
-      render () {
-        return <h1>Hello {this.props.name}</h1>
-      }
-    }
-
-    HelloWorldComponent.PropTypes = {
-      name: PropTypes.string
-    }
-
-    ReactDOM.render(
-      <HelloWorldComponent name="Bulbasaur" />,
-      document.getElementById('container')
-    )
-
-    setTimeout(() => {
-      ReactDOM.render(
-        <HelloWorldComponent name="Ivysaur" />,
-        document.getElementById('container')
-      )
-    }, 3000)
-  </script>  
+  <script src="app.js" type="text/babel"></script>  
 </body>
 </html>
