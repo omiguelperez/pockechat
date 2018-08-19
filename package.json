@@ -1,0 +1,23 @@
+{
+  "name": "pockechat",
+  "version": "1.0.0",
+  "description": "Pokemón Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiguelperez/pockechat.git"
+  },
+  "author": "Oscar Pérez <mr.omiguelperez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omiguelperez/pockechat/issues"
+  },
+  "homepage": "https://github.com/omiguelperez/pockechat#readme",
+  "engines": {
+    "node": "8.11.2",
+    "npm": "6.4.0"
+  }
+}
